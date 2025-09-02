@@ -7,6 +7,5 @@ services:
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-
-environment:
-  pythonVersion: 3.10.14
+      - key: DATABASE_URL
+        value: "postgresql://lexner_db_user:8eTvloOkiMpXcEZNGQgobDNmsYnkRdUx@dpg-d2rjgke3jp1c73fn543g-a/lexner_db"
