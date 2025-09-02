@@ -1,0 +1,10 @@
+{
+  "<PAD>": 0,
+  "O": 1,
+  "B-ACT": 2,
+  "I-ACT": 3,
+  "B-CITATION": 4,
+  "I-CITATION": 5,
+  "B-JUDGE": 6,
+  "I-JUDGE": 7
+}
