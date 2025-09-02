@@ -5,12 +5,9 @@ Run:
   pip install fastapi uvicorn pydantic "python-multipart" spacy PyMuPDF PyPDF2 torch torchcrf neo4j sqlalchemy passlib[bcrypt] python-jose[cryptography] boto3 python-dotenv
   uvicorn server:app --reload --port 8000
 """
-
+from __future__ import annotations
 from dotenv import load_dotenv
 load_dotenv()
-
-from __future__ import annotations
-
 import os, re, json, time, uuid, logging
 from typing import List, Dict, Any, Optional, Union
 
