@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+SQLAlchemy
+passlib[bcrypt]
+python-jose[cryptography]
+neo4j
+PyMuPDF
+PyPDF2
+boto3
+python-multipart
+torch
+torchcrf
