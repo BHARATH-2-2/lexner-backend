@@ -1,3 +1,5 @@
+torch==2.3.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+pytorch-crf==0.7.2
 fastapi
 uvicorn[standard]
 python-dotenv
@@ -10,6 +12,3 @@ PyMuPDF
 PyPDF2
 boto3
 python-multipart
---extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.5.1+cu121
-pytorch-crf==0.7.2
